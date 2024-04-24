@@ -16,3 +16,50 @@ ol, ul {
 a{
     color: black;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    border: 1px solid #efefef;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+
+header .wrapper img{
+    width: 120px;
+}
+header .wrapper ul{
+    display: flex;
+    justify-content: end;
+}
+header .wrapper ul li{
+    margin-right: 32px;
+}
+header .wrapper ul li a{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header .wrapper ul li:nth-child(4) a{
+    padding: 10px 35px;
+    border-radius: 30px;
+    background-color: #3d00b7;
+    color: #fff;
+}
+
+header .wrapper ul li:last-child a{
+    border: 2px solid #3d00b7;
+    padding: 10px 35px;
+    border-radius: 30px;
+}
